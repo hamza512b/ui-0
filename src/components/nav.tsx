@@ -19,7 +19,7 @@ export default function Nav(): React.ReactElement {
                 <nav className="container mx-auto  flex h-16 text-gray-800 items-center px-4 sm:px-0 pt-6 md:pt-0">
                     <a
                         className="flex items-center mr-auto pr-4 hover:bg-gray-100 rounded-md focus:outline-none focus:ring-2 ring-gray-700"
-                        href="/"
+                        href="#"
                     >
                         <Logo className="h-12 w-12" />
                         <span className="font-semibold text-2xl uppercase text-gray-800">Logo</span>
