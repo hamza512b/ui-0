@@ -6,7 +6,7 @@ const PreloadWebpackPlugin = require("@vue/preload-webpack-plugin");
 
 module.exports = {
     mode: "development",
-    output: { publicPath: "/ui-0" },
+    output: { publicPath: "/" },
     entry: ["react-hot-loader/patch", "./src/index.tsx"],
     module: {
         rules: [
@@ -59,6 +59,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template: "public/index.html",
+            publicPath: "", // this option is injected in html template
         }),
         new ForkTsCheckerWebpackPlugin({
             async: false,

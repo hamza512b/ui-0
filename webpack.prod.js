@@ -14,7 +14,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "[name].[contenthash].js",
-        publicPath: "/ui-0",
+        publicPath: "/ui-0/",
     },
     stats: {
         errorDetails: true,
@@ -73,6 +73,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template: "public/index.html",
+            publicPath: "/ui-0", // this option is injected in html template
         }),
         new ForkTsCheckerWebpackPlugin({
             async: false,
