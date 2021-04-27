@@ -1,11 +1,11 @@
 {
-    "name": "LinearsTemplate",
-    "short_name": "LinearsTemplate",
+    "name": "UI-0",
+    "short_name": "UI-0",
     "start_url": ".",
     "display": "standalone",
     "theme_color": "#297DFA",
     "background_color": "#F9FAFB",
-    "description": "Linears pre configured template for developing web apps.",
+    "description": "Homepage using React, Webpack, Tailwindcss, and Headlessui.",
     "icons": [
         {
             "src": "logo48.png",
