@@ -18,7 +18,7 @@ ReactDOM.render(
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
         navigator.serviceWorker
-            .register("/service-worker.js")
+            .register("/ui-0/service-worker.js")
             .then(() => {
                 console.log("SW has be registered");
             })
