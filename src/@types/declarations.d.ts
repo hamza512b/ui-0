@@ -3,12 +3,7 @@ declare module "*.png" {
     export default value;
 }
 
-declare module "*.svg" {
-    import React = require("react");
-
-    const ReactComponent: (props: React.SVGProps<SVGSVGElement>) => JSX.Element;
-    export default ReactComponent;
-}
+declare module "*.svg";
 
 declare module "*.module.css";
 declare module "*.css";

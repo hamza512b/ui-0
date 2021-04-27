@@ -6,7 +6,7 @@ const PreloadWebpackPlugin = require("@vue/preload-webpack-plugin");
 
 module.exports = {
     mode: "development",
-    output: { publicPath: "/" },
+    output: { publicPath: "/ui-0" },
     entry: ["react-hot-loader/patch", "./src/index.tsx"],
     module: {
         rules: [

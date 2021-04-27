@@ -1,20 +1,10 @@
-# Linears Template
+# ui build - 0
 
-Linears Template is my frontend template for building users interfacs.
+This web page is test page made to test my new [wepback build toolchain](https://github.com/linears-io/linears-template).
 
-## Sweats 👌
+It is basically a landing page with made Tailwindcss, React and Headlessui. Here is the [demo](https://hamzakhuswan.com/ui-0).
 
--   TailwindCSS, best css library 🚀
--   HeadlessUi, accesbility and animation library for TailwindCSS.
--   Manrope font, my favorit font
--   Jest, testing library
--   Webpack
--   React
-
-## Features:
-
--   Hot reloading
--   Progessiv web app
+The pattern in the header section is from [Heropatterns](https://www.heropatterns.com/) by Steve Schoger
 
 ## Usage
 
